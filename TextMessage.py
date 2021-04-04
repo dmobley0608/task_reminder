@@ -12,7 +12,9 @@ class Text():
         self.msg['to'] = to
         self.msg['from'] = "DCSolutions"
 
-        user = 'dmobley1898@gmail.com'
+        print("enter email")
+        email = input()
+        user = email
         password = 'bdbmoqdgdfzntenf'
 
         server = smtplib.SMTP("smtp.gmail.com", 587, timeout=120)
